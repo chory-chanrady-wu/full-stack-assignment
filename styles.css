@@ -130,8 +130,8 @@ body {
 }
 .news-video iframe {
   border-radius: 10px;
-  width: 560px;
-  height: 315px;
+  width: 1080px;
+  height: 600px;
 }
 .contact {
   background-color: rgba(7, 18, 100, 0.877);
