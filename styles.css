@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
@@ -20,11 +20,11 @@ body {
   width: 100%;
   background-color: rgb(7, 18, 100);
   padding: 10px 0;
+  z-index: 1000;
 }
 .nav-list {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   gap: 20px;
   flex-direction: row;
   text-decoration: none;
@@ -43,9 +43,9 @@ body {
 }
 .funds {
   background-color: rgba(7, 18, 100, 0.877);
-  margin: 30px;
+  margin: 20px 100px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px 100px;
   color: #ffffff;
   justify-content: center;
   scroll-margin-top: 90px;
@@ -57,37 +57,82 @@ body {
   gap: 1px;
   flex-direction: column;
   padding: 0 20px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
+.funds-text {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.funds-intro p,
+.funds-text p,
+.news-item p {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+.funds-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
   background-color: rgba(7, 18, 100, 0.877);
   color: #ffffff;
   text-align: center;
-  padding: 20px;
-  margin: 30px;
+  padding: 10px 100px;
+  margin: 20px 100px;
   border-radius: 10px;
   scroll-margin-top: 90px;
+}
+.about h4 {
+  margin-bottom: 10px;
+  text-align: start;
+}
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about p {
+  text-align: start;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+.about img {
+  margin-top: 20px;
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
 }
 .news {
   background-color: rgba(7, 18, 100, 0.877);
   color: #ffffff;
   text-align: start;
-  padding: 20px;
-  margin: 30px;
+  padding: 10px 100px;
+  margin: 20px 100px;
   border-radius: 10px;
   scroll-margin-top: 90px;
 }
 .news h2 {
   text-align: center;
 }
+.news-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
 .contact {
   background-color: rgba(7, 18, 100, 0.877);
   color: #ffffff;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  padding: 20px;
-  margin: 30px;
+  padding: 50px 100px;
+  margin: 10px 100px;
   border-radius: 10px;
   scroll-margin-top: 90px;
   gap: 50px;
@@ -102,6 +147,7 @@ body {
   align-items: start;
   gap: 10px;
   margin-top: 20px;
+  padding: 0 20px;
 }
 
 .form input,
@@ -110,6 +156,15 @@ body {
   padding: 8px;
   border: none;
   border-radius: 5px;
+  box-shadow: 0 0 5px #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ffffff;
 }
 .footer {
   display: flex;
@@ -120,4 +175,30 @@ body {
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
+}
+.contact-form {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 1px #ffffff;
+}
+.contact-info {
+  border-radius: 5px;
+  padding-left: 20px;
+  box-shadow: 0 0 1px #ffffff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn button {
+  background-color: rgb(53, 73, 226);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #000080;
 }
