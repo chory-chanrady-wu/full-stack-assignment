@@ -8,19 +8,30 @@
   <link rel="stylesheet" href="styles.css" />
   <!-- AOS Animation Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
   <header>
     <nav class="nav">
-      <img src="./assets/images/logo.png" alt="logo" width="200px" height="60px" />
+      <a href="index.html"><img src="./assets/images/logo.png" alt="logo" width="200px" height="60px" /></a>
       <ul class="nav-list">
         <li><a class="nav-items" href="#funds">Funds</a></li>
         <li><a class="nav-items" href="#about">About Us</a></li>
         <li><a class="nav-items" href="#news">News & Insights</a></li>
         <li><a class="nav-items" href="#contact">Contact</a></li>
       </ul>
+
+      <div class="dropdown">
+        <a href="#"><i class="fa fa-bars"></i></a>
+        <div class="dropdown-content">
+          <li><a href="#funds">Funds</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#news">News & Insights</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
     </nav>
   </header>
   <div class="blank-space"></div>
@@ -194,8 +205,8 @@
 
     <div class="news-video" data-aos="fade-up">
       <h3>Watch Our Introduction Video</h3>
-      <iframe src="https://www.youtube.com/embed/aNVXb2hmrP4?si=FN77IE0LIjOhE46I"
-        title="YouTube video player" frameborder="0"
+      <iframe src="https://www.youtube.com/embed/aNVXb2hmrP4?si=FN77IE0LIjOhE46I" title="YouTube video player"
+        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
       </iframe>
