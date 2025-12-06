@@ -49,6 +49,7 @@ body {
   color: #ffffff;
   justify-content: center;
   scroll-margin-top: 90px;
+  
 }
 
 .funds-list {
@@ -125,6 +126,12 @@ body {
   align-items: center;
   margin-top: 20px;
   border-radius: 10px;
+  margin-bottom: 50px;
+}
+.news-video iframe {
+  border-radius: 10px;
+  width: 560px;
+  height: 315px;
 }
 .contact {
   background-color: rgba(7, 18, 100, 0.877);
