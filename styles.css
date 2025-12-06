@@ -202,3 +202,10 @@ body {
 .btn button:hover {
   background-color: #000080;
 }
+.map {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
