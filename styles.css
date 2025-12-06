@@ -1,0 +1,123 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.blank-space {
+  height: 100px;
+}
+.welcome {
+  text-align: center;
+}
+.nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  background-color: rgb(7, 18, 100);
+  padding: 10px 0;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-list li {
+  list-style-type: none;
+}
+.nav-items {
+  text-decoration: none;
+  color: #ffffff;
+}
+.funds h2,
+.funds h3 {
+  text-align: center;
+}
+.funds {
+  background-color: rgba(7, 18, 100, 0.877);
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+  justify-content: center;
+  scroll-margin-top: 90px;
+}
+
+.funds-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1px;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.about {
+  background-color: rgba(7, 18, 100, 0.877);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  scroll-margin-top: 90px;
+}
+.news {
+  background-color: rgba(7, 18, 100, 0.877);
+  color: #ffffff;
+  text-align: start;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  scroll-margin-top: 90px;
+}
+.news h2 {
+  text-align: center;
+}
+.contact {
+  background-color: rgba(7, 18, 100, 0.877);
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  scroll-margin-top: 90px;
+  gap: 50px;
+}
+.contact h2,
+.contact h3 {
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 18, 100);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
