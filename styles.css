@@ -37,6 +37,9 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+.dropdown-content li, .nav-items:hover {
+  color: #1b27d4;
+}
 .funds h2,
 .funds h3 {
   text-align: center;
